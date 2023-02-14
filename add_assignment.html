@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="design1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Assignment</title>
+</head>
+<body>
+    <div class="popup">
+        <div class="close-btn">&times;</div>
+        <div class="form">
+            <h2>Add Assignment</h2>
+            <div class="form-element">
+                <i class="material-icons">add</i>
+                <input class="glossyBtn"  type="input" name="button" style="vertical-align: middle; border: none;" value="Add Classroom"/>
+            </div>
+            <div class="form-element" style="justify-content: space-between;">
+                <input class="glossyBtn"  type="input" name="button" style="vertical-align: middle;" value="Add Subject"/>
+                <i class="material-icons">arrow_drop_down</i>
+            </div>
+            <h3>Title</h3>
+            <div class="form-element" style="display: flex; flex-direction: column;">
+                <input class="glossyBtn"  type="text" name="button" style="vertical-align: middle" value="Add Assignment title here" />
+            </div>
+            <a href="" style="position: fixed; right: 28px; color: green;">Add Description</a>
+            <h3>Due Date</h3>
+            <div class="form-element" style="justify-content: space-between;">
+                <i class="material-icons">chevron_left</i>
+                <input class="glossyBtn"  type="date" name="button" style="vertical-align: middle" value="Add Classroom"/>
+                <i class="material-icons">chevron_right</i>
+            </div>
+            <h3>Attach Resources <i class="material-icons">info</i></h3>
+            
+            <div class="form-element" style="display: flex; flex-direction: column;">
+                <i class="material-icons" style="text-align:center; margin-top: 20px;">description</i>
+                <input type="file"; margin-top: 20px;">
+            </div>
+
+            <div class="submit-btn"style="justify-content: space-around;">
+                <button style="background-color: #888;">Cancel</button>
+                <button>Create</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <script>
+        document.querySelector("#show-add-document").addEventListener("click",function(){
+            document.querySelector(".").classList.add("active");
+        })
+        document.querySelector(".popup .close-btn").addEventListener("click",function(){
+            document.querySelector(".").classList.remove("active");
+        })
+    </script> -->
+</body>
+</html>

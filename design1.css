@@ -1,0 +1,73 @@
+.popup{
+    position: absolute;
+    top: -150%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%,-50%) scale(1);
+    width: 380px;
+    padding: 20px 30px;
+    background-color: darkgray;
+    box-shadow: 4px 4px 15px rgb(0,0,0,0.3);
+    border-radius: 10px;
+    transition: top 0ms ease-in-out 200ms,opacity 200ms ease-in-out 0ms, transform 20ms ease-in-out 0ms;
+}
+
+.popup.active{
+    top: 50%;
+    opacity: 1;
+    transform: translate(-50%,-50%) scale(1);
+    transition: top 0ms ease-in-out 0ms,opacity 200ms ease-in-out 0ms, transform 20ms ease-in-out 0ms;
+
+}
+
+.popup .close-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 15px;
+    height: 15px;
+    background: #888;
+    color: #eee;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+.form-element{
+    margin: 15px 0px 0px 0px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #888;
+    /* justify-content: space-between; */
+    
+}
+.form-element input{
+    width:92%;
+    border: none;
+    padding: 10px;
+    background-color: #888;
+}
+
+.form-element input[type="date"]{
+    display: flex;
+}
+.h3{
+    display: flex;
+}
+.submit-btn button{
+    /* position: sticky; */
+    /* bottom: 20px; */
+    margin-top: 10px;
+    background-color: blue;
+    padding: 10px 15px;
+    width:48%;
+    border-radius: 10px;
+    border: none;
+    color:white;
+    cursor: pointer;
+    /* margin-bottom: 5px; */
+}
+
